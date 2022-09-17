@@ -58,8 +58,7 @@ var viewConsultantName = true,
   viewCreated = true,
   viewCreatedBy = true,
   viewModified = true,
-  viewModifiedBy = true,
-  abc="January"
+  viewModifiedBy = true
 
 const gridOptions = {
   pagination: true,
