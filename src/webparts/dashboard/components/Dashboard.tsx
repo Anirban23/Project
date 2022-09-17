@@ -58,7 +58,8 @@ var viewConsultantName = true,
   viewCreated = true,
   viewCreatedBy = true,
   viewModified = true,
-  viewModifiedBy = true
+  viewModifiedBy = true,
+  test111 = 'Test',
 
 const gridOptions = {
   pagination: true,
