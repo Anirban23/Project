@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "upload-invoice-report-client-side-solution",
+    "id": "32a55ab7-4419-4456-8754-7ac480a95f10",
+    "version": "1.0.1.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "UploadInvoiceReport description"
+      },
+      "longDescription": {
+        "default": "UploadInvoiceReport description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "upload-invoice-report Feature",
+        "description": "The feature that activates elements of the upload-invoice-report solution.",
+        "id": "39d2f5b0-453c-498e-9393-03aaa57cad45",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/upload-invoice-report.sppkg"
+  }
+}

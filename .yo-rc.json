@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "upload-invoice-report",
+    "libraryId": "32a55ab7-4419-4456-8754-7ac480a95f10",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "UploadInvoiceReport",
+    "solutionShortDescription": "UploadInvoiceReport description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

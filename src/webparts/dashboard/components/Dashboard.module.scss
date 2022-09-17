@@ -1,0 +1,273 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.ag-theme-alpine {
+  // --ag-header-height: 30px;
+  // --ag-header-foreground-color: white;
+   --ag-header-background-color: #e7e9ef;
+  --ag-header-cell-hover-background-color: rgb(80, 40, 140);
+  --ag-header-cell-moving-background-color: rgb(80, 40, 140);
+  font-size: 10px !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+
+}
+.ag-theme-alpine .ag-row {   height: 20px; } 
+.ag-theme-alpine .ag-cell, .ag-theme-alpine .ag-full-width-row .ag-cell-wrapper.ag-row-group {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+.dashboard {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tabDiv {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 4px 16px;
+  background-color: #000;
+  color: #fff;
+}
+
+.modal-body {
+  padding: 2px 16px;
+  //box-shadow: 1px 0px 9px 1px #888888;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.modal-footer {
+  padding: 0px 16px;
+  background-color: #e3e3ed;
+  color: white;
+}
+
+.UploadInvoice {
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+.pivotStyleMain {
+  //border: 2px solid #888888;
+  box-shadow: 0px 0px 5px 1px #888888;
+  border-radius: 10px;
+}
+
+.linkFont {
+  font-size: 1.5em;
+}
+
+
+.tabHeader {
+  width: 100%;
+}
+
+.pivotControl1stLayer {
+  margin-top: -4px;
+  box-shadow: 0px 1px 3px 0px #888;
+
+  // div[role="tablist"] {
+  //   //border: 1px solid #7f7f7f;
+  //   border-radius: 12px;
+  //   padding: 1px;
+  // }
+
+  button {
+    // padding: 2px 8px 3px;
+    // margin: 0px 0px 8px 8px;
+    // height: 30px;
+    // min-width: 13%;
+    // cursor: pointer;
+    // margin-bottom: 7px;
+    // text-align: center;
+    // //border-radius: 10px;
+    // background-clip: padding-box;
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+    //  border-left: 1px solid transparent !important;
+    //  border-right: 1px solid transparent !important;
+     
+    // box-shadow: 0px 1px 3px 0px #888;
+    // border-bottom: 2px solid #ddcccc;
+    // font-size: 13px;
+    // margin-right: 0px;
+
+    &:hover {
+      background-color: #cacbce;
+      border-color: lightgrey;
+      box-shadow: 0px 1px 3px 0px #888;
+      //border-radius: 20px;
+      //height: 45px;
+    }
+
+    &[aria-selected="true"] {
+      background-color: #e7e9ef;
+      border-radius: 6px;
+      //border-color: #333536;
+      box-shadow: 0px 1px 3px 1px #fab;
+      //color: #fff;
+      //fill: #fff;
+      height: 45px;
+    }
+
+    // &[aria-selected="false"] {
+    //   background-color: #e4e6e799;
+    //   border-color: #1e1f20;
+    //   color: #000;
+    //   fill: #fff;
+    // }
+  }
+}
+
+.attachmentFiles {
+  border: 1px solid #fab;
+  padding: 5px;
+  margin: 5px;
+}
+
