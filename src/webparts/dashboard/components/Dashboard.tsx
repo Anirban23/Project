@@ -62,7 +62,7 @@ var viewConsultantName = true,
 
 const gridOptions = {
   pagination: true,
-  paginationPageSize: 30,
+  paginationPageSize: 40,
 }
 
 
