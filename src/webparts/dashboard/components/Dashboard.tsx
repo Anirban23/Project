@@ -78,7 +78,6 @@ export default class Dashboard extends React.Component<IDashboardProps, any> {
   private _sp: SPFI;
 
 
-
   public constructor(props: IDashboardProps) {
     super(props);
     SPComponentLoader.loadCss("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
